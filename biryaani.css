@@ -1,0 +1,147 @@
+body{
+font-family: arial;
+background-color: rgb(255, 211, 144);
+
+
+}
+.title{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 2px;
+border-style: dashed;
+}
+nav{
+  width: 500px;
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  background-color: blanchedalmond;
+  border: none;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 50px;
+}
+a{
+  color: brown;
+}
+.dish-list li{
+  margin: 3px;
+margin-bottom: 4px;
+}
+.gallery h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+
+}
+
+.image-container{
+
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+
+}
+div img{
+width: 180px;
+height: 180px;
+margin: 20px;
+border: 2px;
+border-style: solid;
+border-radius: 30px;
+}
+.image-container div{
+ text-align: center;
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+.Nav{
+  margin-top: 100px;
+  margin-right: 30px;
+  width: 800px;
+  border: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  background-color: rgb(237, 196, 94);
+}
+
+.Nav h1{
+ 
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Nav h2 ,h3{
+  text-decoration: underline;
+}
+.Nav-content{
+  margin: 30px;
+}
+.form-content{
+  margin-top: 20px;
+width: 600px;
+border: 1px;
+border-style: solid;
+display: flex;
+flex-direction: row;
+padding: 15px;
+}
+#contact{
+font-size: 20px;
+
+}
+.form-content h2{
+text-decoration: underline;
+text-align: center;
+margin-bottom: 20px;
+
+}
+input{
+height: 35px;
+width: 200px;
+margin-right: 15px;
+
+}
+select{
+  font-size: 15px;
+  padding: 5px;
+}
+textarea{
+  margin-top: -18px;
+
+}
+.button{
+  display: flex;
+  justify-content: center;
+
+}
+
+button{
+ 
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 15px;
+
+}
+
+footer{
+  margin-top: 40px;
+  background-color: rgb(255, 183, 74);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+}
